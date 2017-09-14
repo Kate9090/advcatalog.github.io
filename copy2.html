@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>katalog</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/post.js"></script>
+</head>
+<body>
+
+<header>
+
+  <div class="container">
+    <div class="logo">
+      <img src="" alt="" width="80px" height="80px" alt="logo">
+    </div>
+<div class="left-hand">
+  <h2>Название компании</h2>
+  <p>самая клевая компания</p>
+</div>
+<div class="right-hand">
+  <p class="tel"><a href="#">+7(499)777-77-77</a></p>
+  <p class="tel"><a href="#">+7(499)777-77-77</a></p>
+  <div class="connect">
+    <p><a class="show-btn" href = "javascript:void(0)"
+        onclick = "document.getElementById('envelope').style.display='block'; document.getElementById('fade').style.display='block'"
+       >Обратная связь</a></p>
+
+  </div>
+
+</div>
+  </div>
+</header>
+<div class="feedback">
+  <div id="envelope" class="envelope">
+     <a class="close-btn" href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='none';document.getElementById('fade').style.display='none'">Закрыть</a>
+       <h1 class="title">Обратная связь</h1>
+        <form method="post" action="">
+    <input type="text" name="sender_name" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'* Ваше Имя':this.value;" value="* Ваше Имя" class="your-name"/>
+      <input type="text" name="sender_tel" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'* Телефон':this.value;" value="* Телефон" class="your-tel"/>
+    <input type="text" name="sender_email" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'* Email':this.value;" value="* Email" class="email-address"/>
+    <textarea class="your-message">Сообщение ..</textarea>
+    <input type="submit" name="send" value="Отправить" class="send-message">
+        </form>
+  </div>
+   <div id="fade" class="black-overlay"></div>
+</div>
+<div class="menu">
+  <div class="container">
+<ul class="main-menu">
+  <li>Главная</li>
+  <li>Каталог</li>
+  <li>Доставка и оплата</li>
+  <li>Прайс-лист</li>
+  <li>Контакты</li>
+</ul>
+  </div>
+</div>
+
+<!-- <div class="slider">
+  <div class="into-image w3-content w3-display-container">
+<img class="mySlides" src="images/slide1.png" alt="" style="width:100%">
+<img class="mySlides" src="images/slide2.png" alt="" style="width:100%">
+
+<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+  </div>
+</div> -->
+<div class="slider">
+
+<div class="slide1"></div>
+<div class="slide2"></div>
+  </div>
+
+<div class="catalog">
+  <div class="breedcrumbs">
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li>/</li>
+      <li><a href="#">Каталог</a></li>
+      <li>/</li>
+      <li>Бытовая техника</li>
+    </ul>
+  </div>
+<div class="leftblock">
+<ul>
+  <li ><a href="#">Автомобили</a></li>
+  <li class="active"><a href="#">Бытовая техника</a>
+          <ul class="category">
+          <li class="active"><a href="#">Микроволновки</a></li>
+          <li><a href="#">Холодильники</a></li>
+          <li><a href="#">Посудомоечные машины</a></li>
+          <li><a href="#">Чайники</a></li>
+        </ul>
+</li>
+  <li><a href="#">Мобильная техника</a></li>
+  <li><a href="#">Компьютеры</a></li>
+  <li><a href="#">Одежда</a></li>
+  <li><a href="#">Недвижимость</a></li>
+  </ul>
+<div class="price-list">
+  <img src="images/mc-excel.png" alt="" height="90px" width="90px"><br> <a href="#">Прайс-лист</a>
+</div>
+</div>
+<div class="centerblock">
+<div class="product-main">
+  <div class="product">
+    <img class="kettle" src="images/no-image.png" alt="Чайник" height="160px" width="160px">
+    <p>Самый клевый чайник, который надо купить!</p>
+    <p class="price">1900 <span>р.</span><img class="basket" src="images/basket.png" alt="R" height="20px" width="20px"></p>
+
+  </div>
+  <div class="product">
+    <img class="kettle" src="images/no-image.png" alt="Чайник" height="160px" width="160px">
+    <p>Самый клевый чайник, который надо купить!</p>
+      <p class="price">1900 <span>р.</span><img class="basket" src="images/basket.png" alt="R" height="20px" width="20px"></p>
+  </div>
+  <div class="product">
+    <img class="kettle" src="images/no-image.png" alt="Чайник" height="160px" width="160px">
+    <p>Самый клевый чайник, который надо купить!</p>
+      <p class="price">1900 <span>р.</span><img class="basket" src="images/basket.png" alt="R" height="20px" width="20px"></p>
+  </div>
+  <div class="product">
+    <img class="kettle" src="images/no-image.png" alt="Чайник" height="160px" width="160px">
+    <p>Самый клевый чайник, который надо купить!</p>
+      <p class="price">1900 <span>р.</span><img class="basket" src="images/basket.png" alt="R" height="20px" width="20px"></p>
+  </div>
+  <div class="product">
+    <img class="kettle" src="images/no-image.png" alt="Чайник" height="160px" width="160px">
+    <p>Самый клевый чайник, который надо купить!</p>
+    <p class="price">1900 <span>р.</span><img class="basket" src="images/basket.png" alt="R" height="20px" width="20px"></p>
+  </div>
+
+</div>
+<div class="pages">
+  <ul>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">6</a></li>
+    <li><a href="#">7</a></li>
+  </ul>
+  <div class="column-legend">
+    <div class="legend-left">
+      <p>Мы против потокового подхода к продвижению. Выполняя работу все сотрудники проявляют личное участие и внимание к результату и отдаче. При необходимости, совместно с продвижением оказываются и сопутствующие услуги: аудит коммерческих качеств сайта, подключение дополнительных каналов рекламы.</p>
+    </div>
+    <div class="legend-right">
+      <p>За годы работы мы накопили уникальный опыт по сопровождению и поддержке сайтов: в настоящее время мы развиваем на постоянной основе более 50 проектов наших клиентов, а также оказываем услуги разовой (нерегулярной) поддержки для более чем 100 клиентов.</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="contacts">
+      <p>2012-1013 ЗАО "Компания"</p>
+      <p>info@name.ru</p>
+    </div>
+    <div class="main-menu">
+      <ul>
+        <li>Главная</li>
+        <li>Каталог</li>
+        <li>Доставка и оплата</li>
+        <li>Прайс-лист</li>
+        <li>Контакты</li>
+      </ul>
+    </div>
+  <div class="footer-logo">
+    <p> <a href="#">Разработка сайта</a> - <br> компания "Пиксель Плюс"</p>
+    <p><img src="images/company.png" alt=""width="30px" height="30px"></p>
+
+  </div>
+  </div>
+  </footer>
+
+  <!-- <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script> -->
+</body>
+
+</html>
